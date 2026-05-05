@@ -1,1 +1,173 @@
+===== Mini DLP Alert Report =====
+Generated: 2026-05-04 13:54:58.520794
 
+Severity: High
+Risk Score: 100/100
+Time: 2026-05-01 09:15
+User: jdoe
+Department: Finance
+Employment Status: Active
+File: payroll_report.xlsx
+File Size: 85 MB
+File Count: 1
+Classification: Confidential
+Destination: company-sharepoint.com
+Action: upload
+Reasons:
+- Sensitive file type: .xlsx
+- Sensitive keyword found in filename: payroll
+- High-risk department: Finance
+- Confidential file classification
+Analyst Response Actions:
+- Block or restrict the data transfer if still in progress.
+- Identify data sensitivity and confirm whether a policy violation occurred.
+- Investigate user activity, intent, and business justification.
+- Review additional user activity for potential data exfiltration patterns.
+- Preserve relevant evidence and initiate incident response procedures if unauthorized transfer is confirmed.
+--------------------------------------------------
+Severity: High
+Risk Score: 100/100
+Time: 2026-05-01 22:10
+User: jdoe
+Department: Finance
+Employment Status: Departing
+File: customer_data.csv
+File Size: 150 MB
+File Count: 12
+Classification: Restricted
+Destination: gmail.com
+Action: upload
+Reasons:
+- Large file upload: 150 MB
+- Sensitive file type: .csv
+- Sensitive keyword found in filename: customer
+- Upload to personal domain: gmail.com
+- External destination: gmail.com
+- High-risk department: Finance
+- Employment status risk: Departing
+- Restricted file classification
+- Bulk file movement detected: 12 files
+- Upload occurred after business hours
+Analyst Response Actions:
+- Block or restrict the data transfer if still in progress.
+- Identify data sensitivity and confirm whether a policy violation occurred.
+- Investigate user activity, intent, and business justification.
+- Review additional user activity for potential data exfiltration patterns.
+- Preserve relevant evidence and initiate incident response procedures if unauthorized transfer is confirmed.
+--------------------------------------------------
+Severity: High
+Risk Score: 100/100
+Time: 2026-05-01 22:15
+User: jdoe
+Department: Finance
+Employment Status: Departing
+File: employee_records.pdf
+File Size: 120 MB
+File Count: 15
+Classification: Restricted
+Destination: gmail.com
+Action: upload
+Reasons:
+- Large file upload: 120 MB
+- Sensitive file type: .pdf
+- Sensitive keyword found in filename: employee
+- Upload to personal domain: gmail.com
+- External destination: gmail.com
+- High-risk department: Finance
+- Employment status risk: Departing
+- Restricted file classification
+- Bulk file movement detected: 15 files
+- Repeated upload activity by user: 3 uploads
+- Upload occurred after business hours
+Analyst Response Actions:
+- Block or restrict the data transfer if still in progress.
+- Identify data sensitivity and confirm whether a policy violation occurred.
+- Investigate user activity, intent, and business justification.
+- Review additional user activity for potential data exfiltration patterns.
+- Preserve relevant evidence and initiate incident response procedures if unauthorized transfer is confirmed.
+--------------------------------------------------
+Severity: High
+Risk Score: 100/100
+Time: 2026-05-01 22:20
+User: jdoe
+Department: Finance
+Employment Status: Departing
+File: backup.zip
+File Size: 300 MB
+File Count: 25
+Classification: Confidential
+Destination: gmail.com
+Action: upload
+Reasons:
+- Large file upload: 300 MB
+- Sensitive file type: .zip
+- Archive/compressed file type detected: .zip
+- Upload to personal domain: gmail.com
+- External destination: gmail.com
+- High-risk department: Finance
+- Employment status risk: Departing
+- Confidential file classification
+- Bulk file movement detected: 25 files
+- Repeated upload activity by user: 4 uploads
+- Upload occurred after business hours
+Analyst Response Actions:
+- Block or restrict the data transfer if still in progress.
+- Identify data sensitivity and confirm whether a policy violation occurred.
+- Investigate user activity, intent, and business justification.
+- Review additional user activity for potential data exfiltration patterns.
+- Preserve relevant evidence and initiate incident response procedures if unauthorized transfer is confirmed.
+--------------------------------------------------
+Severity: High
+Risk Score: 100/100
+Time: 2026-05-01 14:45
+User: bwilliams
+Department: HR
+Employment Status: Active
+File: benefits.docx
+File Size: 45 MB
+File Count: 1
+Classification: Internal
+Destination: outlook.com
+Action: upload
+Reasons:
+- Sensitive file type: .docx
+- Upload to personal domain: outlook.com
+- External destination: outlook.com
+- High-risk department: HR
+Analyst Response Actions:
+- Block or restrict the data transfer if still in progress.
+- Identify data sensitivity and confirm whether a policy violation occurred.
+- Investigate user activity, intent, and business justification.
+- Review additional user activity for potential data exfiltration patterns.
+- Preserve relevant evidence and initiate incident response procedures if unauthorized transfer is confirmed.
+--------------------------------------------------
+Severity: High
+Risk Score: 100/100
+Time: 2026-05-01 23:30
+User: mjohnson
+Department: Legal
+Employment Status: Terminated
+File: legal_contracts_2026.zip
+File Size: 500 MB
+File Count: 30
+Classification: Restricted
+Destination: dropbox.com
+Action: upload
+Reasons:
+- Large file upload: 500 MB
+- Sensitive file type: .zip
+- Archive/compressed file type detected: .zip
+- Sensitive keyword found in filename: legal
+- External destination: dropbox.com
+- High-risk department: Legal
+- Employment status risk: Terminated
+- Restricted file classification
+- Bulk file movement detected: 30 files
+- Upload occurred after business hours
+Analyst Response Actions:
+- Block or restrict the data transfer if still in progress.
+- Identify data sensitivity and confirm whether a policy violation occurred.
+- Investigate user activity, intent, and business justification.
+- Review additional user activity for potential data exfiltration patterns.
+- Preserve relevant evidence and initiate incident response procedures if unauthorized transfer is confirmed.
+--------------------------------------------------
