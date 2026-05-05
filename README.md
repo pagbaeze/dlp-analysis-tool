@@ -14,7 +14,21 @@ This project simulates a Data Loss Prevention (DLP) system that detects potentia
 - Simulates insider threat detection and alert prioritization  
 
 ---
+## Sample Output
 
+Example alert report:
+sample_output/dlp_alert_report.txt
+
+This output demonstrates:
+
+- Risk scoring and severity classification  
+- Detection reasoning (why an alert was triggered)  
+- Identification of sensitive file types and data volume  
+- Detection of uploads to personal or unapproved domains  
+- Indicators of potential insider threat activity  
+- Recommended analyst response actions
+
+---  
 ## How to Run
 
 ### Option 1 (Windows)
