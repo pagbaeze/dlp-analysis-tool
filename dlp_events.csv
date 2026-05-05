@@ -1,0 +1,8 @@
+timestamp,user,department,employment_status,filename,file_size_mb,file_count,classification,destination,action
+2026-05-01 09:15,jdoe,Finance,Active,payroll_report.xlsx,85,1,Confidential,company-sharepoint.com,upload
+2026-05-01 22:10,jdoe,Finance,Departing,customer_data.csv,150,12,Restricted,gmail.com,upload
+2026-05-01 22:15,jdoe,Finance,Departing,employee_records.pdf,120,15,Restricted,gmail.com,upload
+2026-05-01 22:20,jdoe,Finance,Departing,backup.zip,300,25,Confidential,gmail.com,upload
+2026-05-01 11:30,asmith,Marketing,Active,logo.png,10,1,Public,company-sharepoint.com,upload
+2026-05-01 14:45,bwilliams,HR,Active,benefits.docx,45,1,Internal,outlook.com,upload
+2026-05-01 23:30,mjohnson,Legal,Terminated,legal_contracts_2026.zip,500,30,Restricted,dropbox.com,upload
